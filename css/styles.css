@@ -1,0 +1,31 @@
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin: 0 auto;
+  max-width: 50em;
+  line-height: 1.5;
+  padding: 1em 1em;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+img {
+  height: 280px;
+  width: 200px;
+}
+
+
+
+td {
+  background-image: url('../img/playing-card-back.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 200px;
+}
+
+#a1, #a2, #a3, #a4, #b1, #b2, #b3, #b4, #c1, #c2, #c3, #c4, #d1, #d2, #d3, #d4 {
+  display: none;
+}
